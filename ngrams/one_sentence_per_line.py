@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-Usage: python3 one_sentence_per_line.py infile.txt outfile.txt
+Usage: python3 one_sentence_per_line.py --infn="infile.txt" --outfn="outfile.txt"
 
 Take a text file, use NLTK to segment the sentences and tokenize the words (both
 in the default NLTK way), then print out one sentence per line with the words
