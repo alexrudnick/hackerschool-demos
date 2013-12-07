@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
 
+"""
+Tiny NLTK concordance demo. Run it like this:
+
+$ python concordance.py my-text.txt
+
+(tested with Python 3, should work with Python 2 as well)
+"""
+
 import sys
 import readline
 
